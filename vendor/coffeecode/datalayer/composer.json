@@ -1,0 +1,32 @@
+{
+  "name": "NTTech/datalayer",
+  "description": "The data layer is a persistent abstraction component of your database that PDO",
+  "keywords": [
+    "NTTech",
+    "UpInside",
+    "Database",
+    "PDO",
+    "Save",
+    "Delete",
+    "Destroy",
+    "CRUD"
+  ],
+  "homepage": "https://www.upinside.com.br",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Robson V. Leite",
+      "email": "cursos@upinside.com.br",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "NTTech\\DataLayer\\": "src"
+    }
+  }
+}

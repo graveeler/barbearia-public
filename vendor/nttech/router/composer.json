@@ -1,0 +1,26 @@
+{
+  "name": "nttech/router",
+  "description": "This project in version 1.0 is a copy of the NTTech component.",
+  "keywords": [
+    "NTTech",
+    "Router",
+    "Route",
+    "Routes"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Neto Castro",
+      "email": "netocastrotec@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "NTTech\\Router\\": "src"
+    }
+  }
+}

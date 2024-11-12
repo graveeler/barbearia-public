@@ -1,0 +1,178 @@
+{
+    "packages": [
+        {
+            "name": "league/plates",
+            "version": "v3.5.0",
+            "version_normalized": "3.5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/plates.git",
+                "reference": "a6a3238e46c6e19af7318fdc36bfbe49b0620231"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/plates/zipball/a6a3238e46c6e19af7318fdc36bfbe49b0620231",
+                "reference": "a6a3238e46c6e19af7318fdc36bfbe49b0620231",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0|^8.0"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "^1.6",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "time": "2023-01-16T20:25:45+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "League\\Plates\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Reinink",
+                    "email": "jonathan@reinink.ca",
+                    "role": "Developer"
+                },
+                {
+                    "name": "RJ Garcia",
+                    "email": "ragboyjr@icloud.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Plates, the native PHP template system that's fast, easy to use and easy to extend.",
+            "homepage": "https://platesphp.com",
+            "keywords": [
+                "league",
+                "package",
+                "templates",
+                "templating",
+                "views"
+            ],
+            "support": {
+                "issues": "https://github.com/thephpleague/plates/issues",
+                "source": "https://github.com/thephpleague/plates/tree/v3.5.0"
+            },
+            "install-path": "../league/plates"
+        },
+        {
+            "name": "nttech/datalayer",
+            "version": "v1.0.5",
+            "version_normalized": "1.0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/netocastro/datalayer.git",
+                "reference": "911f67b29dab4d3850939104bc8c4983858d6609"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/netocastro/datalayer/zipball/911f67b29dab4d3850939104bc8c4983858d6609",
+                "reference": "911f67b29dab4d3850939104bc8c4983858d6609",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=8.0"
+            },
+            "time": "2023-09-08T01:20:58+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "NTTech\\DataLayer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Neto Castro",
+                    "email": "netocastrotec@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The data layer is a persistent abstraction component of your database that PDO",
+            "homepage": "https://www.mundauvalley.com",
+            "keywords": [
+                "NTTech",
+                "crud",
+                "database",
+                "delete",
+                "destroy",
+                "pdo",
+                "save"
+            ],
+            "support": {
+                "issues": "https://github.com/netocastro/datalayer/issues",
+                "source": "https://github.com/netocastro/datalayer/tree/v1.0.5"
+            },
+            "install-path": "../nttech/datalayer"
+        },
+        {
+            "name": "nttech/router",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/netocastro/Router.git",
+                "reference": "2b665e0b151f7a9ba01d1e1d6c319c809bcb5ac4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/netocastro/Router/zipball/2b665e0b151f7a9ba01d1e1d6c319c809bcb5ac4",
+                "reference": "2b665e0b151f7a9ba01d1e1d6c319c809bcb5ac4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "time": "2023-04-13T11:51:00+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "NTTech\\Router\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Neto Castro",
+                    "email": "netocastrotec@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This project in version 1.0 is a copy of the NTTech component.",
+            "keywords": [
+                "NTTech",
+                "route",
+                "router",
+                "routes"
+            ],
+            "support": {
+                "issues": "https://github.com/netocastro/Router/issues",
+                "source": "https://github.com/netocastro/Router/tree/v1.0.0"
+            },
+            "install-path": "../nttech/router"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
