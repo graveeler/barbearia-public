@@ -24,19 +24,6 @@ class EventController
 
     public function store($data)
     {
-        /**
-         * quando for salvar uma data que seja muito a frente , posso fazer o teste, baseado no que o barbeiro
-         * pretende atender, exemplo: se o barbeiro quer permitir agendamento apenas ate 2 semanas na frente 
-         * pq ele ira viajar eu faco um teste se a data que o usuario quer marcar é menor que o dia atual
-         * mais os 14 dias.
-         * 
-         */
-
-        /**
-         * tambem bloquear agendamentos que sejam para antes do dia atual.
-         * OBS: procurar alguma funcionalidade no fullcalendar para deixar as datas anteriores ao dia atual
-         * não possam ser clicadas.
-         */
         if (empty($_SESSION['user_id'])) {
             echo json_encode(['whithoutLogin' => 'Você precisa estar logado para realizar um agendamento. ']);
             return;
@@ -71,12 +58,5 @@ class EventController
 
         echo json_encode(['success' => 'agendado com sucesso']);
 
-        /*
-            `id` INTEGER AUTO_INCREMENT,
-            `color` varchar(20),
-            `textColor` varchar(20),
-            `title` varchar(20),
-
-        */
     }
 }

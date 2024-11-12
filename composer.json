@@ -1,6 +1,6 @@
 {
     "name": "neto-pc/barbearia-site",
-    "description": "Site para barbearias",
+    "description": "Site para barbearias, portifolio",
     "type": "project",
     "license": "MIT",
     "autoload": {

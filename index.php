@@ -8,10 +8,6 @@ $route = new Router(BASE_PATH);
 
 $route->namespace('Source\Controllers');
 
-/**
- *  ------ FALTA FAZER VALIDACOES NOS CONTROLADORES SITE EM FAZE DE TESTE
- */
-
 $route->group(null);
 /**
  * Site User

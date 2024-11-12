@@ -8,7 +8,6 @@ class AdminControllerRequest
 {
     public function readContact($data)
     {
-      //  echo json_encode('teste');exit;
         $contact = (new Contact())->findById($data['id']);
         $contact->status = '1';
         $contact->change()->save();

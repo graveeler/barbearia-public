@@ -1,14 +1,17 @@
 <?php
 
 session_start();
+
 date_default_timezone_set('America/Sao_Paulo');
 
-define("LANGUAGE","pt-br");
-define("CHARSET","utf-8");
+const LANGUAGE = "pt-br";
+const CHARSET = "utf-8";
 
 $s = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === "on") ? 's' : '');
 
-define("BASE_PATH", "http{$s}://{$_SERVER['HTTP_HOST']}/development/2024/PHP/barbearia-site");
+$directory = '';
+
+define("BASE_PATH", "http{$s}://{$_SERVER['HTTP_HOST']}{$directory}");
 
 define('DATA_LAYER_CONFIG', [
 	'driver' => 'mysql',
@@ -33,3 +36,4 @@ define('DATA_LAYER_CONFIG', [
     "from_name"=>"",
     "from_email"=>""
 ]);*/
+
